@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IdiomSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Author="Fanliver Pham">
+  <Idioms>
+    <Idiom English="Like father, like son" Vietnamese="Cha nào con nấy">
+      <Explanation>Fathers and sons resemble each other, and sons tend to do what their fathers did before them.</Explanation>
+    </Idiom>
+    <Idiom English="Rain cats and dogs" Vietnamese="Mưa như trút nước, mưa tầm tã">
+      <Explanation>To rain very hard, very heavily</Explanation>
+    </Idiom>
+    <Idiom English="Come up with something" Vietnamese="Nghĩ ra, tìm ra">
+      <Explanation>To find something out or think of something</Explanation>
+    </Idiom>
+    <Idiom English="Piece of cake" Vietnamese="Dễ như ăn bánh">
+      <Explanation>Something is very easy to do</Explanation>
+    </Idiom>
+    <Idiom English="Get a leg up on someone" Vietnamese="Có lợi thế">
+      <Explanation>Have an advantage over someone else</Explanation>
+    </Idiom>
+    <Idiom English="I'm with you [there]" Vietnamese="Tôi đồng ý với bạn">
+      <Explanation>I agree with you</Explanation>
+    </Idiom>
+    <Idiom English="About to do something" Vietnamese="Sắp làm gì đó">
+      <Explanation>To be close to do something</Explanation>
+    </Idiom>
+    <Idiom English="To be to do something " Vietnamese="Phải làm gì đó">
+      <Explanation>Have to do something</Explanation>
+    </Idiom>
+    <Idiom English="In place of something" Vietnamese="Thay thế cho cái gì đó">
+      <Explanation>Instead of something</Explanation>
+    </Idiom>
+    <Idiom English="You are too much" Vietnamese="Bạn rắc rối quá">
+      <Explanation>You are too much of a problem for me</Explanation>
+    </Idiom>
+    <Idiom English="... with please" Vietnamese="rất hân hạnh">
+      <Explanation>very pleasure to do something</Explanation>
+    </Idiom>
+    <Idiom English="Break a leg!" Vietnamese="Chúc may mắn!">
+      <Explanation>Good luck!</Explanation>
+    </Idiom>
+    <Idiom English="Watch your tongue (Or watch your mouth)" Vietnamese="Giữ mồm giữ miệng">
+      <Explanation>Pay attention to what you are saying</Explanation>
+    </Idiom>
+    <Idiom English="Same to you" Vietnamese="Bạn cũng vậy thôi">
+      <Explanation>The same comment applies to you</Explanation>
+    </Idiom>
+    <Idiom English="Speak of the devil" Vietnamese="Nhắc Tào Tháo là Tào Tháo tới">
+      <Explanation>To talk about a certain person, and that person appears</Explanation>
+    </Idiom>
+    <Idiom English="Over my dead body" Vietnamese="Muốn làm gì đó thì phải bước qua xác tôi.">
+      <Explanation>If someone want to do something, they have to kill you first because you want to prevent them from doing it.</Explanation>
+    </Idiom>
+    <Idiom English="Remember me to someone" Vietnamese="Gửi lời hỏi thăm sức khỏe ai đó">
+      <Explanation>Please carry my good wishes to someone</Explanation>
+    </Idiom>
+  </Idioms>
+</IdiomSource>

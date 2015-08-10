@@ -1,0 +1,33 @@
+﻿<Window x:Class="IdiomReminder.Views.AddIdiomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:vm="clr-namespace:IdiomReminder.ViewModels"
+        Title="Add Idiom" SizeToContent="WidthAndHeight" Icon="../Resources/Icons/e.ico">
+	<Window.DataContext>
+		<vm:AddIdiomViewModel />
+	</Window.DataContext>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Vertical" Grid.RowSpan="2">
+			<TextBlock Margin="3" FontWeight="Bold">English</TextBlock>
+			<TextBox Text="{Binding NewIdiom.English}" Margin="3" FontWeight="Bold" Width="360"></TextBox>
+			<TextBlock Margin="3" FontWeight="Bold">Explanation</TextBlock>
+			<TextBox Text="{Binding NewIdiom.Explanation}" AcceptsReturn="True" MaxLines="10" MaxHeight="120" Margin="3" Width="360"></TextBox>
+			<TextBlock Margin="3" FontWeight="Bold">Vietnamese</TextBlock>
+			<TextBox Text="{Binding NewIdiom.Vietnamese}" Margin="3" Width="360"></TextBox>
+			
+		</StackPanel>
+		<StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom">
+			<Button Margin="3" Width="60" Command="{Binding ButtonAddPressedCommand}">Add</Button>
+			<Button Margin="3" Width="60" Command="{Binding ButtonClearPressedCommand}">Clear</Button>
+		</StackPanel>
+	</Grid>
+</Window>

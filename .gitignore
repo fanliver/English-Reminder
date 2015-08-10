@@ -1,0 +1,5 @@
+bin/
+obj/
+packages/
+source/IdiomReminder/IdiomReminderSetup/IdiomReminderSetup/
+*.user
