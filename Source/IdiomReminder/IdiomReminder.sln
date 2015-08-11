@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomReminder", "IdiomRemin
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "IdiomReminderSetup", "IdiomReminderSetup\IdiomReminderSetup.isproj", "{C6DF8543-FABA-4054-BDE1-39676E218111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomReminderConsole", "IdiomReminderConsole\IdiomReminderConsole.csproj", "{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomReminder.Models", "IdiomReminder.Models\IdiomReminder.Models.csproj", "{F2500065-4A70-4E26-91ED-35D1C617565C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -36,6 +40,26 @@ Global
 		{C6DF8543-FABA-4054-BDE1-39676E218111}.Release|Any CPU.Build.0 = SingleImage
 		{C6DF8543-FABA-4054-BDE1-39676E218111}.SingleImage|Any CPU.ActiveCfg = SingleImage
 		{C6DF8543-FABA-4054-BDE1-39676E218111}.SingleImage|Any CPU.Build.0 = SingleImage
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{DA49BAA3-CB23-465E-91E6-31C0E9792BDA}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{F2500065-4A70-4E26-91ED-35D1C617565C}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

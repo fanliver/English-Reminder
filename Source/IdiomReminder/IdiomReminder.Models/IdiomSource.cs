@@ -6,10 +6,12 @@ using System.Xml.Serialization;
 namespace IdiomReminder.Models {
 	[XmlRoot]
 	public class IdiomSource {
+		private List<Idiom> _unpickedIdioms;
 
 		public IdiomSource() {
 			Author = "Fanliver Pham";
 			Idioms = new List<Idiom>();
+			_unpickedIdioms = new List<Idiom>();
 			Categories = new List<IdiomCategory>();
 		}
 
@@ -20,8 +22,13 @@ namespace IdiomReminder.Models {
 
 		public List<Idiom> Idioms { get; protected set; }
 
+		public void ResetIdiomSource() {
+			_unpickedIdioms.AddRange(Idioms);
+		}
+
 		public void AddIdiom(Idiom idiom) {
 			Idioms.Add(idiom);
+			_unpickedIdioms.Add(idiom);
 		}
 
 		public void AddCategory(IdiomCategory category) {
@@ -29,14 +36,21 @@ namespace IdiomReminder.Models {
 		}
 
 		public Idiom GetRandomIdiom(bool isFavoriteOnly = false) {
-			ICollection<Idiom> idioms = isFavoriteOnly ? Idioms.Where(i => i.IsFavorite).ToList() : Idioms;
+			if (_unpickedIdioms.Count == 0) {
+				ResetIdiomSource();
+			}
+
+			ICollection<Idiom> idioms = isFavoriteOnly ? _unpickedIdioms.Where(i => i.IsFavorite).ToList() : _unpickedIdioms;
 
 			if (idioms.Count == 0) return null;
 
 			var random = new Random((int)DateTime.Now.Ticks);
 			var randomIndex = random.Next(idioms.Count);
 
-			return idioms.ElementAt(randomIndex);
+			var result = idioms.ElementAt(randomIndex);
+			idioms.Remove(result);
+
+			return result;
 		}
 
 		public ICollection<Idiom> GetAllIdioms(bool isFavoriteOnly = false) {

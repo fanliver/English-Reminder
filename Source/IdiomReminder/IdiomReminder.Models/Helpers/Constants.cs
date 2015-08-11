@@ -1,4 +1,4 @@
-﻿namespace IdiomReminder.Helpers {
+﻿namespace IdiomReminder.Models.Helpers {
 	public class Constants {
 		public const string MsgShowRandomIdiom = "Show idiom";
 		public const string MsgAddNewIdiom = "Add new idiom";

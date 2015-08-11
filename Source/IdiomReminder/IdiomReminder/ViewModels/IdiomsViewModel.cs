@@ -2,8 +2,8 @@
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using System.Windows.Threading;
-using IdiomReminder.Helpers;
 using IdiomReminder.Models;
+using IdiomReminder.Models.Helpers;
 using IdiomReminder.ViewModels.Utils;
 
 namespace IdiomReminder.ViewModels {

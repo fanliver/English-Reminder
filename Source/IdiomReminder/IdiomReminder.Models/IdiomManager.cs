@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
-using IdiomReminder.Helpers;
+using IdiomReminder.Models.Helpers;
 
 namespace IdiomReminder.Models {
-	class IdiomManager {
+	public class IdiomManager {
 		private static readonly object LockObject = new object();
 		private static IdiomManager _instance;
 		private IdiomSource _idiomSrc;

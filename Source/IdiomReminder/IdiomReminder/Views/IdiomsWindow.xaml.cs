@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using Hardcodet.Wpf.TaskbarNotification;
-using IdiomReminder.Helpers;
 using IdiomReminder.Models;
+using IdiomReminder.Models.Helpers;
 using IdiomReminder.ViewModels;
 
 namespace IdiomReminder.Views {

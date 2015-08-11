@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IdiomReminder.Helpers {
+namespace IdiomReminder.Models.Helpers {
 	public class NotificationEventArgs : EventArgs {
 		public NotificationEventArgs() : this ("Notification Event") {}
 
